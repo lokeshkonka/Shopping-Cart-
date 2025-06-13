@@ -56,7 +56,7 @@ h1, h2 {
 
 /* Cart total section */
 #cart-total {
-    display: flex;
+  
     justify-content: space-between;
     align-items: center;
     background: rgba(255, 255, 255, 0.05);
@@ -81,6 +81,28 @@ h1, h2 {
 #checkout-btn:hover {
     background: rgba(255, 255, 255, 0.2);
 }
+#cart-btn {
+    padding: 0.7rem 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: bold;
+
+}
+
+#cart-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.cart-btn-container {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
 
 /* Hidden class */
 .hidden {
@@ -90,4 +112,50 @@ h1, h2 {
 /* Optional neon border or hover glow effect */
 .container:hover {
     box-shadow: 0 0 50px rgba(173, 216, 230, 0.2);
+}
+span {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+span:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 25px rgba(173, 216, 230, 0.3); /* light glow */
+}
+
+span span {
+    color: #EF88AD; /* Custom color for price or name, can be changed */
+}
+#cart-btn-delete {
+    padding: 0.7rem 1.5rem;
+    background: rgba(255, 20, 20, 0.521);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: bold;
+
+}
+
+#cart-btn-delete:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.cart-btn-container {
+    display: flex;
+    justify-content: flex-end;
+
 }
