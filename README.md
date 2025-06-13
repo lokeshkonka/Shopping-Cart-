@@ -32,8 +32,10 @@ shopping-cart/
 - Vanilla JavaScript (DOM Manipulation)
 
 ## 📦 How to Run Locally
+![Image](https://github.com/user-attachments/assets/6ceb9d7d-b059-4891-a1ff-62db73806d45)
 
 1. Clone the repository or download the files:
 
 ```bash
 git clone https://github.com/yourusername/shopping-cart.git
+
