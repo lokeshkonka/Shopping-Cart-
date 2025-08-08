@@ -30,6 +30,7 @@ shopping-cart/
 - HTML5
 - CSS3
 - Vanilla JavaScript (DOM Manipulation)
+- --basic js is used
 
 ## 📦 How to Run Locally
 ![Image](https://github.com/user-attachments/assets/6ceb9d7d-b059-4891-a1ff-62db73806d45)
@@ -38,4 +39,5 @@ shopping-cart/
 
 ```bash
 git clone https://github.com/yourusername/shopping-cart.git
+
 
